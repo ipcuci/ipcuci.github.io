@@ -1,0 +1,19 @@
+* {
+	font-family:  Verdana;
+	color: white;
+}
+
+h1 {
+	font-size: 3em;
+}
+
+h2 {
+	font-size: 2em;
+}
+
+body {
+	text-align: center;
+	margin-left: 25%;
+	margin-right: 25%;
+	background-color: black;
+}
