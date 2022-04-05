@@ -10,10 +10,22 @@ h1 {
 h2 {
 	font-size: 2em;
 }
-
 body {
 	text-align: center;
 	margin-left: 25%;
 	margin-right: 25%;
 	background-color: black;
+}
+a {
+	color: blue;
+	font-size: 2em;
+	font-family: Verdana;
+}
+a:hover {
+	color: yellow;
+	transition: 0.25s;
+}
+a:active {
+	color: blue;
+	transition: 0.25s;
 }
