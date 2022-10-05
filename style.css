@@ -3,18 +3,23 @@
 }
 
 h1 {
-	font-size: 3em;
+	font-size: 2em;
 }
 
 h2 {
-	font-size: 2em;
+	font-size: 1.5em;
 }
 body {
 	text-align: center;
-	margin-left: 25%;
-	margin-right: 25%;
+	margin-left: 20%;
+	margin-right: 20%;
 	background-image:  url('./images/circuitground.png');
 	color: white;
+}
+div {
+	border: 0.5em;
+	border-style: groove;
+	background:  rgba(0,0,0,0.75);
 }
 a {
 	color: blue;
