@@ -1,21 +1,18 @@
-* {
-	font-family:  Verdana;
-}
-
 h1 {
-	font-size: 2em;
+	font-size: 1.75em;
+	font-fmaily:  Verdana;
 }
 
 h2 {
 	font-size: 1.5em;
 }
 body {
-	margin-left: 10%;
-	margin-right: 10%;
+	margin-left: 5%;
+	margin-right: 5%;
 	background-image:  url('../images/circuitground.png');
 	color: white;
 }
-div {
+.main {
 	text-align: center;
 	border: 0.5em;
 	border-style: groove;
@@ -32,4 +29,24 @@ a:hover {
 a:active {
 	color: blue;
 	transition: 0.25s;
+}
+
+.container {
+	display: grid;
+	align-items: center; 
+	grid-template-columns: 1fr 1fr;
+	column-gap: 1px;
+}
+
+.container2 {
+	display: grid;
+	justify-content: center;
+	align-items: center; 
+	grid-template-columns: 10fr 10fr 10fr;
+	column-gap: 5%;
+	width: 100%;
+}
+
+.title {
+	text-align: center;
 }
